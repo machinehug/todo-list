@@ -1,0 +1,166 @@
+/* GLOBAL STYLES*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+/*.wrapper {}*/
+
+.hidden {
+    display: none !important;
+}
+
+.max-width {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+button,
+i {
+    cursor: pointer;
+}
+
+button {
+    background-color: red;
+    color: black;
+    font-weight: bold;
+    width: 20%;
+}
+
+
+
+/* HEADER */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+header nav ul {
+    display: flex;
+    max-width: 100px;
+}
+
+header nav ul li {
+    margin: 0;
+}
+
+header nav ul li {
+    font-size: 25px;
+    background: none !important;
+}
+
+.pop-up-wrapper {
+    max-width: fit-content;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    position: absolute;
+    user-select: none;
+}
+
+.pop-up-wrapper a {
+    color: white;
+}
+
+.pop-up-container {
+    background: black;
+    border-radius: 10px;
+}
+
+.pop-up-container ul {
+    padding: 0 10px 10px 10px;
+}
+
+.pop-up-container ul li {
+    margin: 5px 0;
+    padding: 5px;
+    background: none;
+}
+
+.triangle-container {
+    padding: 0;
+    margin: 0;
+}
+
+.triangle {
+    bottom: 8px;
+    left: 60%;
+    position: relative;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid black;
+    padding: 0;
+}
+
+.sort-options-container li,
+.sort-options-button {
+    color: white;
+    cursor: pointer;
+}
+
+
+
+/* INPUT*/
+.input-and-btn-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+input,
+button {
+    padding: 7px 8px;
+    border-radius: 3px;
+    border: 2px solid red;
+    margin-bottom: 7px;
+    min-width: fit-content;
+}
+
+input {
+    width: 70%;
+}
+
+.reminder {
+    font-size: 12px;
+    color: red;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(211, 211, 211, 0.74);
+    padding: 10px;
+    margin: 20px 0;
+}
+
+.fa {
+    color: yellow;
+}
+
+.star {
+    margin-right: 10px;
+}
+
+.days-until-delete {
+    font-size: 10px;
+    padding-right: 20px;
+}
+
+.restore-all-btn {
+    background-color: green;
+    border-color: green;
+}
